@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {FaTimes} from "react-icons/fa";
 
-function MPPFerreiraItem({item, handleDelete}) {
+function EmployeeItem({item, handleDelete}) {
 
   return (
     <div className='card'>
@@ -14,4 +14,4 @@ function MPPFerreiraItem({item, handleDelete}) {
   )
 }
 
-export default MPPFerreiraItem
+export default EmployeeItem
