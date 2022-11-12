@@ -24,6 +24,7 @@ function EmployeeForm({handleAdd}) {
         }
         setTexto(e.target.value);
     }
+    
     const handleSubmit = (e) => {
         e.preventDefault();
 
